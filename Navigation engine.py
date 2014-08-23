@@ -1,4 +1,4 @@
-di = input ("What way do you want to go?")
+di = input ("What way do you want to go?").strip().lower()
 
 if di == ("up"):
     input("You Decide to head upward")
