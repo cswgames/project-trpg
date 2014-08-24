@@ -1,5 +1,12 @@
-print = input("Welcome to The Pines.")
-pine = input("Here we have a Blacksmith, Pond and Forest. Where would you like to go?")
+input ("you arise")
+input ("the cool, light weight of a thin sheet of fabric covers your body")
+input ("darkness")
+input ("silence")
+input ("you switch on your bedside lamp")
+input ("you proceed with your day")
+input ("You've entered The Pines")
+pine = input("Tehre's the Blacksmith, The Pond and Forest. Where would you like to go?")
+
 
 if pine == ('blacksmith'):
     input ("You decide to head to the Blacksmith.")
@@ -22,9 +29,6 @@ if pine == ('blacksmith'):
             input("You Decide to head downward")
 
 
-
-
-
 if pine == ('pond'):
     input("You decide to head to the pond")
     pinehelp = input("Please help us! My son Edward was attacked by a snake! Go to the medic in Ton Castle and get the code from him!")
@@ -45,15 +49,10 @@ if pine == ('pond'):
             if di == ("down"):
                 input("You Decide to head downward")
 
-        
-
-
-
-
 
 if pine == ('forest'):
     input("You decide to go to the forest.")
-    di = input("Ton castle up, Deeper woods right, The Pines back, The mountains left")
+    di = input("Ton Castle is infront of you, Deeper Woods are to your right, The Pines are behind you, and The Mountains are to your left")
 if di == ("up"):
     input("You Decide to head upward")
 if di == ("right"):
@@ -62,7 +61,3 @@ if di == ("left"):
     input("You Decide to head left")
 if di == ("down"):
     input("You Decide to head downward")
-
-
-
-    
