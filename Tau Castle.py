@@ -28,7 +28,19 @@ if tau == ("prison"):
     if taupris == ("y"):
         input("Thank you so much! First thing you need to do is get the code from the royal hall, then come back and enter the code and we will be on our way!")
         ("If you know the code type it in here, if you don't know it type in bye")
-        
+
+
+if tau == ("road"):
+    input("You Decide to leave Tau Castle and get back on the road.")
+#Put in Navi Engine and where ever the road we connect this place to.
+
+
+if tau == ("royal hall"):
+    input("You Decide to head to the Royal Hall.")
+    input('You look around, You see a painting with the letters "fhr4s" on it anda gaurd who has the letters "jwq7y"')
+    input("You Decide to leave")
+    #Go back to the options of where you want to go
+    
         
     
           
