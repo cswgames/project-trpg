@@ -1,11 +1,23 @@
 obser = input ("Welcome to the observatory. Here you can look out over the vast world. would you like to do it? Y/N").strip().lower()
 if obser == ("y"):
     input("Alright take a look!")
-    input("You see a vast, colorful land, full of nature. You stand there, upset that this is a text based RPG, and you can't actually see it. Haha. -cswgames")
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    print()
+    input("You see a vast, colorful land, full of nature.")
+    input("You stand there")
+    input("Overwhelmed by the vast beauty")
+    input("amazed that in this world")
+    input("of insanity and chaos")
+    input("that you were able to find beauty")
+    input("...")
+    input("You sit, and are upset that this is a text based RPG, and you can't actually see it. Haha. -cswgames")
     input("Looks like it's time to leave!")
-if obser == ("n"):
+elif obser == ("n"):
     input("Oh well, Goodbye then!")
-if obser != ("y"):
-    input("YES OR NO QUESTION. Jeez, some people.")
-if obser != ("n"):
+elif obser != (("y","n")):
     input("YES OR NO QUESTION. Jeez, some people.")
