@@ -13,26 +13,23 @@ def 5is():
     input("In all directions water is the only thing visible.")
     5isyn = input("You see land, sail towards land? (Y/N)")
     if 5isyn == ("Y"):
-        input("You start to sail towards the island.")
+        print("You start to sail towards the island.")
         5isarrive
     if 5isyn == ("N"):
-        input("You begin to sail back to the land you came from.")
+        print("You begin to sail back to the land you came from.")
         5isarrive()
     elif:
         print ("I'm sorry, I'm not sure what that means, answer Y for yes or N for no.")
         5is()
-
-
-
-
-        def 5isarrive()
-        input("The wind picks up")
-        input("Rain falls over the water.")
-        input("The crashing waves are too much for the little boat.")
-        input("You pass out...")
-        input("...darkness...")
-        input("...blackness...")
-        input("You awaken, dazed and confused.")
-        input("You see the remains of what you assume is a sailboat, lying on the ground, damaged beyond repair.")
-        input("
+#----------------------------------------------------------------------------------
+def 5isarrive()
+    print("The wind picks up")
+    print("Rain falls over the water.")
+    print("The crashing waves are too much for the little boat.")
+    print("You pass out...")
+    print("...darkness...")
+    print("...blackness...")
+    print("You awaken, dazed and confused.")
+    print("You see the remains of what you assume is a sailboat, lying on the ground, damaged beyond repair.")
+    print("
 
