@@ -24,12 +24,11 @@ def 5is():
 #----------------------------------------------------------------------------------
 def 5isarrive()
     print("The wind picks up")
-    print("Rain falls over the water.")
+    print("Rain pounds against the water.")
     print("The crashing waves are too much for the little boat.")
     print("You pass out...")
     print("...darkness...")
     print("...blackness...")
     print("You awaken, dazed and confused.")
-    print("You see the remains of what you assume is a sailboat, lying on the ground, damaged beyond repair.")
-    print("
-
+    print("You see the remains of what you assume is a sailboat, lying on the ground next to you, damaged beyond repair.")
+    
