@@ -44,8 +44,46 @@ def firstplaceleftforwardorrighthampickle():
         input ("You head back to your last decition")
 
     else:
-        print ("I am sorry you are to stupid to understand")
+        print ("I am sorry please type")
     firstplaceleftforwardorrighthampickle()
 firstplaceleftforwardorrighthampickle()
 
 
+
+
+
+def winorloseorbacksideleftgalafray():
+    brusewayne = input("you continue into the maze, would you like to go left, right, or go back to the last decition.")
+
+    if brusewayne == ("left"):
+        input ("You deside to turn left")
+
+    elif brusewayne == ("right"):
+        input ("You deside to go right")
+
+    elif brusewayne == ("go back"):
+        input ("You head back to the last decition")
+
+    else:
+        ("please restate your answer, but this time in english")
+    winorloseorbacksideleftgalafray()
+winorloseorbacksideleftgalafray()
+
+
+
+def rightpathbananacreampineapple():
+    bucketoflubber = input ("You continue into the maze, wood you like to go forward, right, or back to the last intersetion")
+
+    if bucketoflubber == ("forward"):
+        input ("You continue forward")
+
+    elif bucketoflubber == ("right"):
+        input ("you deside to go to the right")
+
+    elif bucketoflubber == ("go back"):
+        input ("you deside to go back")
+
+    else:
+        ("invalid syntex typing error")
+    rightpathbananacreampineapple() 
+rightpathbananacreampineapple()
