@@ -6,5 +6,5 @@ def mikeconvosweg():
                 input("Ok good, now I want you to go to the Cornfield and pick me the golden corn from")
         else:
                 print('"What did you say?" [type yes or no]')
-        mikeconvosweg()
+                mikeconvosweg()
 mikeconvosweg()
