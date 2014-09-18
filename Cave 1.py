@@ -1,13 +1,14 @@
 def caveswagg():
     input("You decide to head into the dark cave.")
-    cavety = input("It's Dark. You decide that there is no going back. Do you want to keep going or leave while you have the chance? Tpye 'leave' or 'keep going' >").strip().lower()
+    cavety = input("It's Dark. You decide that there is no going back. Do you want to keep going or leave while you have the chance? Type 'leave' or 'keep going' >").strip().lower()
     if cavety == "leave":
         input("You leave the cave.")
     elif cavety == "keep going":
         input("You decide to keep going.")
     else:
         input("I do not understand")
-  
+    caveswagg()
+caveswagg()
 
 def cavesavee():
     cavety2 = input("You travel deep into the cave, you hit a wall and there is a split hall, Do you go right or left? >")
