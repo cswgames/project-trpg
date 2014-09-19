@@ -3,10 +3,13 @@
 def farmhub():
         frub = input("Welcome to Micheals farm, Here we have a, Farm, Cornfield or back on the road, Where do you want to go? > ").strip().lower()
         if frub == "farm":
-            input("You decide to head to the farm.")
-        import mikeconvosweg
-        farmhub()
-farmhub()
+                input("You decide to head to the farm.")
+                mikeconvosweg()
+        else:
+                print("I don't Understand. What did you say?")
+                farmhub()
+
+                
 def mikeconvosweg():
         mikeiscool = input('"Hello there! Did you come to help me work?" [Type yes or no]').strip().lower()
         if mikeiscool == ("no"):
@@ -16,7 +19,11 @@ def mikeconvosweg():
         else:
                 print('"What did you say?" [type yes or no]')
                 mikeconvosweg()
-mikeconvosweg()
+
+
+
+farmhub()
+
 
 
 
