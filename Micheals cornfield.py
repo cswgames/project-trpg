@@ -1,15 +1,16 @@
 def cornfieldpoopinasock():
-    wrongvar = input ("You deside to enter the corn maze, would you like to continue? or go back to the road.")
+    wrongvar = input ("You deside to enter the corn maze, would you like to continue? or go back to the farm.")
     if wrongvar == ("continue"):
         input ("You decide to continue into the maze. ")
+        leftorright1stplaceloser()
 
     elif wrongvar == ("go back"):
         input ("You decide to head back. ")
-
+        #Once this merges back with farmhub we will load that
     else:
         print ("I am sorry I do not understand, please use english. ")
     cornfieldpoopinasock()
-cornfieldpoopinasock()
+
 
 
 
