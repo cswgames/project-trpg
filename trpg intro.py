@@ -1,4 +1,4 @@
-input ('''                   Hello! And welcome to''')
+input ('''                   CSWGAMES PRESENTS......''')
 input ('''
  \_\_\_\_\_  \_          \_\_\_\_\_  \_      \_  \_\_\_\_\_
   \_      \_  \_          \_      \_  \_      \_  \_      \_
@@ -13,6 +13,28 @@ input ('''
            \_      \_  \_      \_  \_                  \_      \_
             \_      \_  \_      \_  \_                  \_      \_
              \_\_\_\_\_  \_\_\_\_\_  \_\_\_\_\_  \_\_\_\_\_      \_''')
+
+
+def mainmenuaq():
+    mainmyt = input("Type 'start' for new game. Type 'help' for things you might not understand. Type 'cred' to see all the people who helped make this game.").strip().lower()
+    if mainmyt == "start":
+        print("You are now playing Alpha Quest. Enjoy!")
+        namein()
+
+    if mainmyt == "help":
+        print("Alpha Quest runs on, Windows, Mac OS X and Linux/UNIX. Just remember that you will need Python, [what this game is coded in] installed on the computer.")
+        print()
+        print("You cannot save your game.  Alpha Quest has no main story, but many sidequests. It is up to the player to find out what gear they want to get, and what they dont want to get.")
+        print()
+        print("If you die, you are dead for good.")
+        print()
+        print("If you have any problems, tweet the problem to us on twitter @cswgames")
+        mainmenuaq()
+
+    if mainmyt == "cred":
+        input("add credits in once game is done.")
+        mainmenuaq()
+
 
 def namein():
     name = input(''' So now, What's your name?
@@ -34,4 +56,5 @@ def namein():
         input("Sorry, I don't know what that means, answer Y for yes or N for no")
         namein()
 
-namein()
+
+mainmenuaq()
