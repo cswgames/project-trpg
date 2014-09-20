@@ -13,18 +13,14 @@ input ('''
            \_      \_  \_      \_  \_                  \_      \_
             \_      \_  \_      \_  \_                  \_      \_
              \_\_\_\_\_  \_\_\_\_\_  \_\_\_\_\_  \_\_\_\_\_      \_''')
-def noentry()
-    print("You've already been here.")
-    print("Where would you like to go?")
+
 def namein():
-    name = input('''What's your name?
+    name = input(''' So now, What's your name?
     >>>''').strip().title()
-    nameout()
-def nameout():
-    yn = input('Oh! So your name is ' +name +' right? (Y/N)').strip().title()
+    yn = input('Oh! So your name is ' + name +' right? (Y/N)').strip().title()
     if yn == ('Y'):
         print ('''GAME START''')
-        #Game goes here
+        #Load the pines
         
     elif yn == ('N'):
         input("Oh?")
@@ -34,23 +30,8 @@ def nameout():
         input("Or instead, here's an idea, you could tell me your REAL name!")
         input("Sound good?")
         namein()
-    else yn != ('N','Y'):
+    else:
         input("Sorry, I don't know what that means, answer Y for yes or N for no")
-        nameout()
-#################################################################################
-input ('''                   Hello! And welcome to''')
-input ('''
- \_\_\_\_\_  \_          \_\_\_\_\_  \_      \_  \_\_\_\_\_
-  \_      \_  \_          \_      \_  \_      \_  \_      \_
-   \_\_\_\_\_  \_          \_\_\_\_\_  \_\_\_\_\_  \_\_\_\_\_
-    \_      \_  \_          \_          \_      \_  \_      \_
-     \_      \_  \_          \_          \_      \_  \_      \_
-      \_      \_  \_\_\_\_\_  \_          \_      \_  \_      \_
+        namein()
 
-        \_\_\_\_\_  \_      \_  \_\_\_\_\_  \_\_\_\_\_  \_\_\_\_\_
-         \_      \_  \_      \_  \_          \_              \_
-          \_      \_  \_      \_  \_\_\_      \_\_\_\_\_      \_
-           \_      \_  \_      \_  \_                  \_      \_
-            \_      \_  \_      \_  \_                  \_      \_
-             \_\_\_\_\_  \_\_\_\_\_  \_\_\_\_\_  \_\_\_\_\_      \_''')
 namein()
