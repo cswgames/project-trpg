@@ -8,7 +8,7 @@ def cavesaresofunright():
     elif swegswegjopper == "no":
         input("You decide that it is safer to go without it. Who knows, it might be a trap.")
         input("As you walk through the cave you find a old book.")
-        input('The book reads, "TELL THE GOLDEN DOOR ON THE 5 ISLANDS THIS CODE. yfws7"')
+        input('The book reads, "TELL THE GOLDEN DOOR ON TORCH ISLAND THIS CODE. yfws7"')
         input("You now leave the cave.")
         #The golden door has the best armor in the game, LVL 10
         #load the road funct
