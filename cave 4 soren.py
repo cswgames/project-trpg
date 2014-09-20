@@ -1,10 +1,8 @@
 
-
+input ("You wonder into a dark cave. ")
+input("You find 3 paths")
 def cave4tincansulfer():
-    input ("you wonder into a dark cave. ")
-    input("you find 3 paths")
-
-    beaver = input ("would you like to go down the left, right, or staight path. ").strip().lower()
+    beaver = input ("Would you like to go down the left, right, or forward path? ").strip().lower()
 
     if beaver == ("left"):
             input ("you decide to go left. ")
@@ -13,14 +11,14 @@ def cave4tincansulfer():
         input ("you decide to go right. ")   
         cave4rightisnotalwaysright()
         
-    elif beaver == ("straight"):
+    elif beaver == ("forward"):
         input ("you head straight forward... ")
         cave4straightflingtree()
     else:
         input ("I am sorry I do not understand. ")
     cave4tincansulfer()
 
-
+#ROOM 1 --------------------------------------------------------------------------------------------------------------------
 
 
 def cave4lefttunapickle():
@@ -28,12 +26,12 @@ def cave4lefttunapickle():
     input ("the celing starts to cave in...")
     input ("you run for the exit and nearly escape. ")
 
-
+#ROOM 2 ---------------------------------------------------------------------------------------------------------------
 def cave4straightflingtree():
     input 
     #redue path split off
 
-
+#ROOM 3 ------------------------------------------------------------------------------------------------------------------------
 def cave4rightisnotalwaysright():
     input ("as you walk through the path the ground opens up from under you. ")
     input ("you fall into a shadowy area and encounter a")

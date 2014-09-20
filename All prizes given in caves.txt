@@ -1,3 +1,4 @@
 LVL 3 bow
 Old book with code for golden door at 5 islands
 LVL 5 bow
+LVL 6 sword
