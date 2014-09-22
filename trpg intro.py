@@ -21,7 +21,7 @@ def mainmenuaq():
         print("You are now playing Alpha Quest. Enjoy!")
         namein()
 
-    if mainmyt == "help":
+    elif mainmyt == "help":
         print("Alpha Quest runs on, Windows, Mac OS X and Linux/UNIX. Just remember that you will need Python, [what this game is coded in] installed on the computer.")
         print()
         print("You cannot save your game.  Alpha Quest has no main story, but many sidequests. It is up to the player to find out what gear they want to get, and what they dont want to get.")
@@ -31,10 +31,12 @@ def mainmenuaq():
         print("If you have any problems, tweet the problem to us on twitter @cswgames")
         mainmenuaq()
 
-    if mainmyt == "cred":
+    elif mainmyt == "cred":
         input("add credits in once game is done.")
         mainmenuaq()
-
+    else:
+        print("I do not understand")
+        mainmenuaq()
 
 def namein():
     name = input(''' So now, What's your name?
