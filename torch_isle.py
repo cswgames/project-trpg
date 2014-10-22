@@ -12,11 +12,11 @@ def torchisshore():
     else:
         print("I'm sorry, Let me ask you again.")
         torchisshore()
-
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 def contbeach():
     mrbeachhassweg = input("You walk along the beach when you see strange foot prints on the sand.... do you want to follow? or keep walking foward? [Type 'follow' or 'continue']").strip().lower()
     if mrbeachhassweg == "follow":
-        pass
+        footsteps_torch()
     elif mrbeachhassweg == "continue":
         pass
     else:
@@ -34,6 +34,12 @@ def contjung():
          print("I'm sorry, Let me ask you again.")
          contjung()
 
+
+
+def footsteps_torch():
+        pass
+
+def
 
 
 
